@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    width: 10%;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background: url("img/matrix.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    background: #9e9d9d;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+}
+
+header div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header ul li{
+    display: flex;
+    padding: 10px;
+}
+
+.container{
+    background-color: black;
+    text-align: center;
+}
+
+.container .name h1{
+    font-size: 60px;
+}
+
+.container .name h5{
+    font-size: 30px;
+}
+
+#about{
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.form {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.form input{
+    width: 50%;
+}
+
+.form button{
+    width: 15%;
+}
